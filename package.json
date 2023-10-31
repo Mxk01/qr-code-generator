@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "numerical-tests.js",
+  "scripts": {
+    "test": "mocha alphanumerical-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
