@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T18:24:09.758Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="xomwKroUAvrEySf8bRww" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T18:32:30.693Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="IvC_8MSdfRJ3lhB6Fxi7" version="22.1.17" type="github">
   <diagram name="Page-1" id="HMk1L3ZVmhgXQnbdjf0Z">
     <mxGraphModel dx="1367" dy="2946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,6 +48,9 @@
         </mxCell>
         <mxCell id="uL2jTAdxlcE1hqd3arbY-75" value="&lt;div&gt;As you can see the text has shifted down from its original position.&lt;/div&gt;&lt;div&gt;That&#39;s because the request was processed later and the image showed up ,taking up 50% of the space.Basically a score of 0.5&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="-1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uL2jTAdxlcE1hqd3arbY-76" value="&lt;div style=&quot;font-size: 24px;&quot;&gt;When you use next/font,nextjs will download all the necessary fonts from a CDN and everything will be available in the public folder.Basically this cuts the need for making subsequent requests for getting fonts.So whenever you build the application you will get all the necessary fonts&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-650" width="700" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
