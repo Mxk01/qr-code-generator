@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-01-08T10:47:17.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="vzL-CZqtMmH--HDzRibs" version="22.1.17" type="github">
+  <diagram name="Page-1" id="Kl8zq_yiNeuqoVnLQ3NV">
+    <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="125" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;UI&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-3" value="globals.css" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.736;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aWtjc3sNvvwIV8ZQqvRP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-6" value="Adds CSS to all the routes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1" source="aWtjc3sNvvwIV8ZQqvRP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-9" value="We can import our global stylesheet&amp;nbsp; in layout.tsx file&amp;nbsp;&amp;nbsp;&lt;br&gt;This file is the main layout.&amp;nbsp;&lt;br&gt;Think of it&amp;nbsp; like a master template component." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="400" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-13" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CLSX&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-15" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;import clsx from &#39;clsx&#39;;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;export default function InvoiceStatus({ status }: { status: string }) {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; return (&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;span&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; className={clsx(&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;inline-flex items-center rounded-full px-2 py-1 text-sm&#39;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;bg-gray-100 text-gray-500&#39;: status === &#39;pending&#39;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;bg-green-500 text-white&#39;: status === &#39;paid&#39;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; )}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; // ...&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 13px;&quot;&gt;)}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="210" width="335" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-16" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="430" as="sourcePoint" />
+            <mxPoint x="900" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aWtjc3sNvvwIV8ZQqvRP-17" value="&lt;b&gt;This is pretty much like ternary operator&lt;br&gt;You pass the classes that you want to add to your component in clsx and&amp;nbsp; the classes that you want to conditionally render inside&amp;nbsp;&lt;br&gt;{ }&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="160" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
